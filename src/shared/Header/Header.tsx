@@ -76,7 +76,9 @@ const Header = () => {
             >
               <ul className="h-full pt-[65px] px-10 pb-10 md:p-0 md:flex md:justify-end md:gap-4 md:items-center">
                 <li>
-                  <Link href={"/"} className="bg-[--primary] text-white w-full block text-center py-3 md:py-[10px] px-[26px] text-[15px] leading-[24px] rounded-[3px] uppercase font-medium">14 Day Free Trial</Link>
+                  <Link href={"/"} className="bg-[--primary] text-white w-full block text-center py-3 md:py-[10px] px-[26px] text-[15px] leading-[24px] rounded-[3px] uppercase font-medium 
+                  transition duration-[0.2s] ease-linear relative z-[1] hover:bg-[#bb022a] hover:text-[#fff] active:bg-[#bb022a] active:text-[#fff]  focus:bg-[#bb022a] focus:text-[#fff] target:bg-[#bb022a] target:text-[#fff] 
+                  ">14 Day Free Trial</Link>
                 </li>
               </ul>
             </nav>

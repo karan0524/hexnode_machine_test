@@ -70,7 +70,8 @@ function Footer() {
                 />
                 <Button
                   type="submit"
-                  className="w-full sm:w-[210px] sm:flex-none bg-[--primary] text-white block text-center py-3 md:py-[10px] px-[26px]  text-[15px] leading-[24px] rounded-[3px] uppercase font-medium h-[52px]"
+                  className="w-full sm:w-[210px] sm:flex-none bg-[--primary] text-white block text-center py-3 md:py-[10px] px-[26px]  text-[15px] leading-[24px] rounded-[3px] uppercase font-medium h-[52px]
+                   transition duration-[0.2s] ease-linear relative z-[1] hover:bg-[#bb022a] hover:text-[#fff] active:bg-[#bb022a] active:text-[#fff]  focus:bg-[#bb022a] focus:text-[#fff] target:bg-[#bb022a] target:text-[#fff] "
                 >
                   Get Started
                 </Button>

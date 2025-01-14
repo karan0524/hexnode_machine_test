@@ -37,32 +37,32 @@ const Platforms = () => {
           >
             <CarouselContent className="-ml-1">
               <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/6">
-                <div className="p-1">
+                <div className="p-1 hover:-translate-y-1 cursor-pointer transition-all duration-500">
                   <Image src={Android} alt="Android" />
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/6">
-                <div className="p-1">
+               <div className="p-1 hover:-translate-y-1 cursor-pointer transition-all duration-500">
                   <Image src={windows} alt="windows" />
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/6">
-                <div className="p-1">
+               <div className="p-1 hover:-translate-y-1 cursor-pointer transition-all duration-500">
                   <Image src={Ios} alt="Ios" />
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/6">
-                <div className="p-1">
+               <div className="p-1 hover:-translate-y-1 cursor-pointer transition-all duration-500">
                   <Image src={Androidtv} alt="Androidtv" />
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/6">
-                <div className="p-1">
+               <div className="p-1 hover:-translate-y-1 cursor-pointer transition-all duration-500">
                   <Image src={AppleTv} alt="AppleTv" />
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/6">
-                <div className="p-1">
+               <div className="p-1 hover:-translate-y-1 cursor-pointer transition-all duration-500">
                   <Image src={AmazonFire} alt="AmazonFire" />
                 </div>
               </CarouselItem>

@@ -4,10 +4,9 @@ import "./globals.css";
 import Header from "@/shared/Header/Header";
 import Footer from "@/shared/Footer/Footer";
 
-const mulishSans = Mulish({
-  variable: "--font-mulish-sans",
-  subsets: ["latin"],
-});
+const fontFamily = Mulish({
+  subsets: ['latin'],
+})
 
 
 export const metadata: Metadata = {
@@ -23,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${mulishSans.variable} antialiased`}
+        className={fontFamily.className}
       >
         <Header/>
         {children}
