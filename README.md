@@ -14,6 +14,12 @@ ShadCN UI: Pre-built components that ensure a consistent and polished user inter
 
 Framer Motion: A library for creating fluid animations and transitions to elevate user experience.
 
+Demo
+
+1. Demo url 
+
+https://hexnode-machine-test.vercel.app/
+
 Installation
 
 Follow these steps to set up the project locally:
